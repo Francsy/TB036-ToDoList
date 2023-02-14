@@ -1,0 +1,14 @@
+header {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+}
+header h1 {
+    border: solid 1px black;
+    background-color: black;
+    color: beige;
+    width: 100%;
+    padding: 10px;
+    margin: 0px;
+}

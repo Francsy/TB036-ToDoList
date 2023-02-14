@@ -1,0 +1,12 @@
+li {
+    list-style-type: none;
+}
+
+li p {
+    display: inline-block;
+    margin: 10px;
+}
+
+li button {
+    display: inline-block;
+}
