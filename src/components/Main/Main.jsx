@@ -15,14 +15,17 @@ class Main extends Component {
   }
 
   addItem = () => {
-    if (this.state.items === []) {
-      this.setState({ items: [this.newItem.current.value] })
-    } else {
-      this.setState({ items: [...this.state.items, this.newItem.current.value] })
-    }
+    if (this.newItem.current.value !== '') {
+      if (this.state.items === []) {
+        this.setState({ items: [this.newItem.current.value] })
+      } else {
+
+        this.setState({ items: [...this.state.items, this.newItem.current.value] })
+      }
+    } 
   }
 
-  clearList = () => this.setState({ items: []})
+  clearList = () => this.setState({ items: [] })
   reset = () => this.setState({ items: tasks })
   deleteTask = (i) => {
     const remainingTasks = this.state.items.filter((task, j) => i !== j)

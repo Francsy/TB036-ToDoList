@@ -9,7 +9,7 @@ class Item extends Component {
     }
   }
   render() {
-    return <li><p>{this.state.text}</p><button onClick={()=> this.props.removeItem(this.props.index)}>🗑️</button></li>;
+    return <li><h3>Tarea {this.props.index + 1}</h3><p>{this.state.text}</p><button onClick={this.props.removeItem}>🗑️</button></li>;
   }
 }
 

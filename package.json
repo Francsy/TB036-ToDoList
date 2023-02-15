@@ -2,7 +2,7 @@
   "name": "tb036-todolist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/Francsy/tb036-todolist",
+  "homepage": "https://francsy.github.io/tb036-todolist",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

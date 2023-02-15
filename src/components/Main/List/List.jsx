@@ -11,7 +11,7 @@ class List extends Component {
     }
   }
 
-  printItemsList = () => this.props.items.map((item, i) => <Item text={item} index={i} removeItem={this.props.removeItem} key={uuidv4()} />)
+  printItemsList = () => this.props.items.map((item, i) => <Item text={item} index={i} removeItem={() => this.props.removeItem(i)} key={uuidv4()} />)
 
   render() {
     return <section>
