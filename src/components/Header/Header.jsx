@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import './Header.css'
+import Nav from './Nav'
 
 class Header extends Component {
   render() {
-    return <header><h1>TO-DO LIST</h1></header>;
+    return <header>
+      <Nav/>
+      </header>;
   }
 }
 
